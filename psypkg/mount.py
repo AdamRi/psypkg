@@ -13,6 +13,7 @@ else:
     import weakref
     import stat
     import mmap
+    from .pkg import read_index
 
 
     class Entry(object):

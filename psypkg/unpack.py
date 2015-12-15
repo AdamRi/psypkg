@@ -1,6 +1,6 @@
 import os
 
-from psypkg import read_index
+from .pkg import read_index
 
 # for Python < 3.3 and Windows
 def highlevel_sendfile(outfile, infile, offset, size):

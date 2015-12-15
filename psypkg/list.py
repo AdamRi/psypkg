@@ -1,7 +1,7 @@
 from __future__ import division
 import sys
 
-from psypkg import read_index
+from .pkg import read_index
 
 
 def human_size(size):
